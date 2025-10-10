@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">pract21</string>
+    <string name="registration">Регистрация</string>
+    <string name="input">Введите ваш логин и пароль</string>
+    <string name="login">Логин</string>
+    <string name="password">Пароль</string>
+    <string name="button1">Войти</string>
+    <string name="enter">Введите данные для нового контакта</string>
+    <string name="newContact">Новый контакт</string>
+    <string name="name">Имя</string>
+    <string name="surname">Фамилия</string>
+    <string name="organisation">Организация</string>
+    <string name="phone">Номер телефона</string>
+    <string name="button2">Добавить</string>
+    <string name="listContacts">Список контактов</string>
+    <string name="button3">Добавить новый контакт</string>
+    <string name="back">Назад</string>
+</resources>
