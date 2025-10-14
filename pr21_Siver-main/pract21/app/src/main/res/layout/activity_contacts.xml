@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".contacts"
+    android:orientation="vertical"
+    android:background="@color/light_pink">
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="75dp"
+        android:layout_height="25dp"
+        android:text="@string/back"
+        android:onClick="back"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:background="@drawable/button"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="5dp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/listContacts"
+            android:textSize="36sp"
+            android:textStyle="bold"
+            android:textColor="@color/pink"
+            android:layout_marginTop="50dp"
+            />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="wrap_content"
+        android:layout_height="262dp" />
+
+    <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="183.05dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginBottom="50dp">
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="350dp"
+                android:layout_height="70dp"
+                android:text="@string/button3"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:background="@drawable/button"
+                android:onClick="enter"
+                />
+        </LinearLayout>
+    </LinearLayout>
