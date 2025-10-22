@@ -9,6 +9,7 @@
     android:background="@color/light_pink">
 
     <Button
+        android:id="@+id/button2"
         android:layout_width="75dp"
         android:layout_height="25dp"
         android:text="@string/back"
@@ -36,14 +37,19 @@
             />
     </LinearLayout>
 
-        <LinearLayout
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="wrap_content"
+        android:layout_height="262dp" />
+
+    <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="183.05dp"
             android:layout_marginStart="30dp"
             android:layout_marginBottom="50dp">
             <Button
-                android:id="@+id/button"
+                android:id="@+id/button3"
                 android:layout_width="350dp"
                 android:layout_height="70dp"
                 android:text="@string/button3"
